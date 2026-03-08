@@ -8,12 +8,12 @@ const PREMIUM_SPONSORS = [
 ];
 
 const STANDARD_SPONSORS = [
-  { name: "მაღარტი", sub: "5 ვაკანსია",  img:"/public/madart.jpg" },
-  { name: "სუფთა სახლი", sub: "4 ვაკანსია", img:"/public/suftasaxli.png" },
-  { name: "SUBWAY", sub: "7 ვაკანსია", img:"/public/subway-12-logo-svg-vector.svg" },
-  { name: "Spar", sub: "3 ვაკანსია",img:"/public/spar-logo-1.png" },
-  { name: "KFC", sub: "9 ვაკანსია",img:"/public/4607.svg" },
-  { name: "სხივი+", sub: "2 ვაკანსია", img:"/public/images.png" },
+  { name: "მაღარტი", sub: "5 ვაკანსია",  img:"/madart.jpg" },
+  { name: "სუფთა სახლი", sub: "4 ვაკანსია", img:"/suftasaxli.png" },
+  { name: "SUBWAY", sub: "7 ვაკანსია", img:"/subway-12-logo-svg-vector.svg" },
+  { name: "Spar", sub: "3 ვაკანსია",img:"/spar-logo-1.png" },
+  { name: "KFC", sub: "9 ვაკანსია",img:"/4607.svg" },
+  { name: "სხივი+", sub: "2 ვაკანსია", img:"/images.png" },
 ];
 
 export default function SponsorsSection() {
