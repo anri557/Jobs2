@@ -1,19 +1,18 @@
 
 
 const PREMIUM_SPONSORS = [
-  { name: "DIPLOMAT",    sub: "12 ვაკანსია", img: "/diplomat.png" },
-  { name: "აჭარა ჯგუფი", sub: "8 ვაკანსია",  img: "/adjara-group.jpg" },
-  { name: "ELITE",       sub: "6 ვაკანსია",  img: "/elit .jpg" },
-
+  { name: "DIPLOMAT",    sub: "12 ვაკანსია", img: `${import.meta.env.BASE_URL}diplomat.png` },
+  { name: "აჭარა ჯგუფი", sub: "8 ვაკანსია",  img: `${import.meta.env.BASE_URL}adjara-group.jpg` },
+  { name: "ELITE",       sub: "6 ვაკანსია",  img: `${import.meta.env.BASE_URL}elit.jpg` },
 ];
 
 const STANDARD_SPONSORS = [
-  { name: "მაღარტი", sub: "5 ვაკანსია",  img:"/madart.jpg" },
-  { name: "სუფთა სახლი", sub: "4 ვაკანსია", img:"/suftasaxli.png" },
-  { name: "SUBWAY", sub: "7 ვაკანსია", img:"/subway-12-logo-svg-vector.svg" },
-  { name: "Spar", sub: "3 ვაკანსია",img:"/spar-logo-1.png" },
-  { name: "KFC", sub: "9 ვაკანსია",img:"/4607.svg" },
-  { name: "სხივი+", sub: "2 ვაკანსია", img:"/images.png" },
+  { name: "მაღარტი",    sub: "5 ვაკანსია", img: `${import.meta.env.BASE_URL}madart.jpg` },
+  { name: "სუფთა სახლი", sub: "4 ვაკანსია", img: `${import.meta.env.BASE_URL}suftasaxli.png` },
+  { name: "SUBWAY",     sub: "7 ვაკანსია", img: `${import.meta.env.BASE_URL}subway-12-logo-svg-vector.svg` },
+  { name: "Spar",       sub: "3 ვაკანსია", img: `${import.meta.env.BASE_URL}spar-logo-1.png` },
+  { name: "KFC",        sub: "9 ვაკანსია", img: `${import.meta.env.BASE_URL}4607.svg` },
+  { name: "სხივი+",     sub: "2 ვაკანსია", img: `${import.meta.env.BASE_URL}images.png` },
 ];
 
 export default function SponsorsSection() {

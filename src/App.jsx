@@ -17,7 +17,7 @@ function App() {
       <header className="main-header">
         <div className='logoSection'>
           <div className="logo">
-          <img src="/4af52202f77beb11ba59ce2056aa7878.png" alt="Jobs2.0" className='jobsGe' />
+          <img src={`${import.meta.env.BASE_URL}Jobslogo.png`} alt="Jobs2.0" className='jobsGe' />
           </div>
           <div>
         <h6 className='logoText'>ჩვენ ვაკავშირებთ პროფესიონალებს <br/> და დამსაქმელებს 1998 წლიდან</h6>
